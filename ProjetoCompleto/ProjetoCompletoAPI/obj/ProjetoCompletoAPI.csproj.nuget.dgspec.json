@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompletoAPI\\ProjetoCompletoAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj",
+        "projectName": "ProjetoCompleto.Data",
+        "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj",
+        "projectName": "ProjetoCompleto.Entity",
+        "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\ProjetoCompleto.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\ProjetoCompleto.Service.csproj",
+        "projectName": "ProjetoCompleto.Service",
+        "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\ProjetoCompleto.Service.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj"
+              },
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompletoAPI\\ProjetoCompletoAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompletoAPI\\ProjetoCompletoAPI.csproj",
+        "projectName": "ProjetoCompletoAPI",
+        "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompletoAPI\\ProjetoCompletoAPI.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompletoAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Data\\ProjetoCompleto.Data.csproj"
+              },
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Entity\\ProjetoCompleto.Entity.csproj"
+              },
+              "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\ProjetoCompleto.Service.csproj": {
+                "projectPath": "C:\\EstudoProjCompleto\\ProjetoCompleto\\ProjetoCompleto.Service\\ProjetoCompleto.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
